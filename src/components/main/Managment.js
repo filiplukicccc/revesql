@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Grid, GridRow, GridColumn, Image } from 'semantic-ui-react'
 import david from '../../images/F5.jpg'
 import gabriel from '../../images/gabriel.png'
+import square from '../../images/download.png'
 import dejana from '../../images/F3.jpg'
 import tobias from '../../images/F4.png'
 import alex from '../../images/F1.jpg'
@@ -26,9 +27,9 @@ class Managment extends Component {
             },
             {
                 name: 'Jelena Scepanovic',
-                picture: gabriel,
-                job: 'Founder and Chief Executive Officer',
-                desc: 'Born in Vienna, Austria, David Veselinović has acquired a broad work experience in different industries. David is a highly recognised and experienced sports betting expert. Prior to founding REVES Holding, he worked for SKS 365 Malta Ltd. in Vienna, where he was responsible for business and product development. Moreover, David worked in several management positions within the sports industry and holds a Bachelor’s degree in sports management. His expertise in analytical business model assessment, market analysis, sports modelling and business development are an essential resource for REVES Holding.'
+                picture: square,
+                job: 'Founder',
+                desc: "After finishing ITAcademy in Belgrade, she begins to work on IT development. After collecting experience in the business field she makes a difficult and an important decision. With great courage, enthusiasm and confidence she manages to start her own IT IT company Cybele Technologies. After a very short time span the company makes excellent progress both in business and functionality. Most of the work in the company is focused on he business platform development, software design and mobile application development. Besides her business success Jelena's greatest values are courage, determination and the ability to be a step ahead. "
             },
             {
                 name: 'Gabriel Nguyen',
