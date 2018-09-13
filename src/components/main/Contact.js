@@ -46,7 +46,7 @@ class Contact extends Component {
 				subject: this.state.subject,
 				message: this.state.message
 			}
-			await fetch('https://reves-group/api/groupForm', {
+			await fetch('https://reves-group.com/api/groupForm', {
 				body: JSON.stringify(data),
 				headers: {
 					'content-type': 'application/json'
