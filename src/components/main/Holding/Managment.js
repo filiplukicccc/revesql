@@ -18,7 +18,7 @@ class Managment extends Component {
 					<span style={{ width: '8px', height: '8px', background: '#003571', display: 'inline-block', borderRadius: '50%', margin: '0 20px' }}></span>
 					<span className={css.border}></span>
 				</div>
-				<Grid style={{ width: '100%' }}>
+				<Grid style={{ width: '100%', margin: '0px' }}>
 					<GridRow centered>
 						<GridColumn style={{ background: 'white' }} className='imgHol' computer={4} mobile={14}>
 							<Image style={{ width: '280px', margin: '0 auto' }} src={david} circular></Image>

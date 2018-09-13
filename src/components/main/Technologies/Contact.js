@@ -61,7 +61,7 @@ class Contact extends Component {
 				subject: this.state.subject,
 				message: this.state.message
 			}
-			await fetch('http://localhost:8081/api/techForm', {
+			await fetch('https://reves-group/api/techForm', {
 				body: JSON.stringify(data),
 				headers: {
 					'content-type': 'application/json'

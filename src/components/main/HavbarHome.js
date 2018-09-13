@@ -60,12 +60,12 @@ class NavbarHome extends Component {
 						</div>
 					</div>
 					<div className={css.menuStandard} style={{ marginLeft: 'auto', paddingRight: '50px' }}>
-						<Menu className={css.menuItem} stackable pointing secondary size='large' style={{ borderBottom: 'none' }}>
+						<Menu className={css.menuItem} stackable pointing secondary size='large' style={{ borderBottom: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 							<a href='/#home'><Menu.Item name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick}>Home</Menu.Item></a>
 							<a href='/#about'><Menu.Item name='About' active={activeItem === 'About'} onClick={this.handleItemClick}>About</Menu.Item></a>
 							<a href='/#managment'><Menu.Item name='Managment' active={activeItem === 'Managment'} onClick={this.handleItemClick}>Managment</Menu.Item></a>
 							<Link to='/reves_holding'><Menu.Item name='Reves_holding' active={activeItem === 'Reves_holding'} onClick={this.handleItemClick}>REVES Holding</Menu.Item></Link>
-							<Link to='/reves_technologies' ><Menu.Item  name='Reves_technologies' active={activeItem === 'Reves_technologies'} onClick={this.border}>REVES Technologies</Menu.Item></Link>
+							<Link to='/reves_technologies' ><Menu.Item name='Reves_technologies' active={activeItem === 'Reves_technologies'} onClick={this.border}>REVES Technologies</Menu.Item></Link>
 							<Link to='/reves_medical'><Menu.Item name='Reves_holdings_africa' active={activeItem === 'Reves_holdings_africa'} onClick={this.handleItemClick}>REVES Medical</Menu.Item></Link>
 							<a href='/#contact'><Menu.Item name='Contact' active={activeItem === 'Contact'} onClick={this.handleItemClick}>Contact</Menu.Item></a>
 						</Menu>
@@ -73,7 +73,7 @@ class NavbarHome extends Component {
 					<Transition visible={visible} animation='slide down' duration={650}>
 						<div className={css.menuRes}>
 							<Menu className={css.menuItem} stackable pointing secondary size='large' style={{ borderBottom: 'none' }}>
-								<a href='/#home'><Menu.Item  name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick}>Home</Menu.Item></a>
+								<a href='/#home'><Menu.Item name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick}>Home</Menu.Item></a>
 								<a href='/#about'><Menu.Item name='About' active={activeItem === 'About'} onClick={this.handleItemClick}>About</Menu.Item></a>
 								<a href='/#managment'><Menu.Item name='Managment' active={activeItem === 'Managment'} onClick={this.handleItemClick}>Managment</Menu.Item></a>
 								<Link to='/reves_holding'><Menu.Item name='Reves_holding' active={activeItem === 'Reves_holding'} onClick={this.handleItemClick}>REVES Holding</Menu.Item></Link>

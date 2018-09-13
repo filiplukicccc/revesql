@@ -12,7 +12,7 @@ class Portfolio extends Component {
 					<span style={{ width: '8px', height: '8px', background: '#003571', display: 'inline-block', borderRadius: '50%', margin: '0 20px' }}></span>
 					<span className={css.border}></span>
 				</div>
-				<Grid>
+				<Grid style={{ margin: '0px' }}>
 					<GridRow centered>
 						<GridColumn computer={12} tablet={7} mobile={14}>
 							<h3 style={{ color: '#003571', textAlign: 'center' }}>REVES HOLDING BELIEVES IN STRONG NETWORKS, LONG-TERM RELATIONSHIPS AND MUTUAL TRUST.</h3>

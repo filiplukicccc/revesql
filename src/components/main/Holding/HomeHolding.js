@@ -19,14 +19,14 @@ import Footer from './Footer';
 export default class HomeHolding extends Component {
 	componentWillMount() {
 		{
-		window.scroll(0, 0) === undefined ? window.scroll(0, 0) : window.scroll(0, 0)
+			typeof window === 'undefined' ? '' : window.scroll(0, 0)
 		}
 	}
 	render() {
 		return (
 			<div>
 				<NavbarHolding />
-				<Grid>
+				<Grid style={{ margin: '0px', marginLeft: '-15px' }}>
 					<GridRow centered>
 						<GridColumn width={16}>
 							<div style={{ position: 'fixed', width: '100%' }}>
@@ -40,7 +40,7 @@ export default class HomeHolding extends Component {
 						</GridColumn>
 					</GridRow>
 				</Grid>
-				<Grid centered style={{ marginTop: '700px', position: 'relative', background: 'white' }}>
+				<Grid centered style={{ margin: '0px', marginTop: '700px', position: 'relative', background: 'white' }}>
 					<h2>IT’S THE FUEL THAT KEEPS OUR BUSINESSES AFLOAT.</h2>
 					<GridRow centered className='homeText'>
 						<GridColumn computer={5} tablet={7} mobile={14}>

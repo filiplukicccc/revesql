@@ -12,7 +12,7 @@ import Footer from './Footer';
 export default class HomeTech extends Component {
 	componentWillMount() {
 		{
-		window.scroll(0, 0) === undefined ? window.scroll(0, 0) : window.scroll(0, 0)
+		typeof window === 'undefined' ? '' : window.scroll(0, 0)
 		}
 	}
 	render() {

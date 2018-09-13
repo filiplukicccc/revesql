@@ -21,7 +21,7 @@ export default class Home extends Component {
 				<ScrollableAnchor id={'home'}>
 					<NavbarHome />
 				</ScrollableAnchor>
-				<Grid>
+				<Grid style={{ marginRight: '0px', marginLeft:'-15px' }}>
 					<GridRow centered>
 						<GridColumn width={16}>
 							<div style={{ position: 'fixed', width: '100%' }}>

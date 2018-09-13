@@ -6,7 +6,7 @@ import style from './styleHol.css';
 import { Parallax } from 'react-parallax';
 
 const AboutHolding = () => (
-    <div style={{ width: '100%' }}>
+    <div style={{ width: '100%', padding: '0px' }}>
         <Parallax bgImage={image}>
             <div style={{ height: '400px' }}>
                 <div style={{ width: '100%', height: '100%', background: 'rgba(0,0,0,0.70)', position: 'absolute', top: '0px', left: '0px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -14,7 +14,7 @@ const AboutHolding = () => (
                 </div>
             </div>
         </Parallax>
-        <Grid>
+        <Grid style={{ margin: '0px' }}>
             <GridRow centered>
                 <GridColumn computer={4} tablet={7} mobile={14}>
                     <h2 style={{ textAlign: 'center' }}>ABOUT US</h2>

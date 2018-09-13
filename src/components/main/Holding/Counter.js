@@ -10,14 +10,14 @@ import TrackVisibility from 'react-on-screen';
 class Counter extends Component {
 	render() {
 		return (
-			<div style={{ width: '100%' }}>
+			<div style={{ width: '100%', padding: '0px' }}>
 				<Parallax bgImage={image} strength={-300} >
 					<div style={{ height: '300px' }}>
 						<div style={{ width: '100%', height: '100%', background: 'rgba(0,0,0,0.90)', position: 'absolute', top: '0px', left: '0px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 							<TrackVisibility throttleInterval={300} style={{ width: '100%' }}>
 								{
 									({ isVisible }) => isVisible ?
-										<Grid className={style.counterGrid} style={{ width: '100%', zIndex: '2', color: 'white' }}>
+										<Grid className={style.counterGrid} style={{ width: '100%', zIndex: '2', color: 'white', margin: '0px' }}>
 											<GridRow centered>
 												<GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={4.75} start={0} end={3} /></p> <p>PARTNERS</p>
 												</GridColumn>

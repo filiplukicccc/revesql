@@ -46,7 +46,7 @@ class Contact extends Component {
 				subject: this.state.subject,
 				message: this.state.message
 			}
-			await fetch('http://localhost:8081/api/afrForm', {
+			await fetch('https://reves-group/api/afrForm', {
 				body: JSON.stringify(data),
 				headers: {
 					'content-type': 'application/json'
@@ -91,7 +91,7 @@ class Contact extends Component {
 					<span style={{ width: '8px', height: '8px', background: '#003571', display: 'inline-block', borderRadius: '50%', margin: '0 20px' }}></span>
 					<span className={css.border}></span>
 				</div>
-				<Grid>
+				<Grid style={{ margin: '0px' }}>
 					<Grid.Row centered>
 						<GridColumn computer={10} tablet={12} moble={16}>
 							<div>

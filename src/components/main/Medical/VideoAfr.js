@@ -19,7 +19,7 @@ class Video extends Component {
 	}
 	render() {
 		return (
-			<Grid>
+			<Grid style={{ marginLeft: '-15px', marginRight: '0px' }}>
 				<GridRow centered>
 					<GridColumn width={16}>
 						<div style={{ position: 'fixed', width: '100%' }}>
