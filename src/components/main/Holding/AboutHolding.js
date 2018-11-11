@@ -14,8 +14,8 @@ const AboutHolding = () => (
                 </div>
             </div>
         </Parallax>
-        <Grid style={{ margin: '0px' }}>
-            <GridRow centered>
+        <Grid style={{ margin: '0px', background: 'white' }}>
+            <GridRow centered style={{ background: 'white' }}>
                 <GridColumn computer={4} tablet={7} mobile={14}>
                     <h2 style={{ textAlign: 'center' }}>ABOUT US</h2>
                     <p>REVES Holding is a leading investment holding company based in Belgrade, Serbia. Our long-term goals are to further diversify our holding portfolio and to help companies realising their growth potential by providing them with patient capital and outstanding operational support.</p>

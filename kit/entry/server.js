@@ -265,7 +265,7 @@ const router = (new KoaRouter())
 
     const mailOptions = {
       from: `${ctx.request.body.email} <flukic@cybeletechnologies.com>`,
-      to: ' Recipient <flukic@zoho.com>',
+      to: ' Recipient <info@revesgroup.com>',
       subject: `${ctx.request.body.subject}`,
       text: `${ctx.request.body.message}`,
       html: htmlEmail
@@ -304,7 +304,7 @@ const router = (new KoaRouter())
 
     const mailOptions = {
       from: `${ctx.request.body.email} <flukic@cybeletechnologies.com>`,
-      to: ' Recipient <flukic@zoho.com>',
+      to: ' Recipient <office@reves-holding.com>',
       subject: `${ctx.request.body.subject}`,
       text: `${ctx.request.body.message}`,
       html: htmlEmail
@@ -343,7 +343,7 @@ const router = (new KoaRouter())
 
     const mailOptions = {
       from: `${ctx.request.body.email} <flukic@cybeletechnologies.com>`,
-      to: ' Recipient <flukic@zoho.com>',
+      to: ' Recipient <alex@viebeg.com>',
       subject: `${ctx.request.body.subject}`,
       text: `${ctx.request.body.message}`,
       html: htmlEmail
@@ -382,7 +382,7 @@ const router = (new KoaRouter())
 
     const mailOptions = {
       from: `${ctx.request.body.email} <flukic@cybeletechnologies.com>`,
-      to: ' Recipient <flukic@zoho.com>',
+      to: ' Recipient <info@revesgroup.com>',
       subject: `${ctx.request.body.subject}`,
       text: `${ctx.request.body.message}`,
       html: htmlEmail
